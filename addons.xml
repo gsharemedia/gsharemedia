@@ -1519,7 +1519,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.09" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.31" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -1953,11 +1953,11 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="script.module.beautifulsoup4"
        name="BeautifulSoup4"
-       version="4.3.2"
+       version="4.5.3"
        provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
     <import addon="xbmc.python" 
-    		version="2.1.0"/>
+             version="2.25.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
