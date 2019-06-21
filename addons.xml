@@ -50,7 +50,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salemmax.bimozie" name="BimoZie" version="0.2.5" provider-name="billy.nguyen">
+<addon id="plugin.video.salemmax.bimozie" name="BimoZie" version="0.2.8" provider-name="billy.nguyen">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -900,6 +900,72 @@ For updates check the readme.
 		<description lang="en">[COLOR red][B]Salemmax[/COLOR]-[COLOR blue]Repository tập hợp các addon và repository giải trí online trên XBMC - Kodi[/B][/COLOR]</description>
 		<disclaimer lang="en">Mọi nội dung được lấy từ Internet vì vậy chúng tôi không chịu trách nhiệm về chất lượng cũng như sự ổn định</disclaimer>
 		<email>gshare.media.com</email>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.hieuhien.vn" version="1.0.2.3" name="[B][COLOR lime]Hieuhien.vn Repository[/COLOR][/B]" provider-name="Hieuhien.vn">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="[COLOR lime][B]Hieuhien.vn Repository[/B][/COLOR]">
+		<info compressed="true">https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml</info>
+		<checksum>https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/hieuhienvn/hieuhien.vn/raw/master/zips/</datadir>
+		<dir>
+			<info compressed="true">http://repo.kodi.vn/00-VMFrepo/addons.xml</info>
+			<checksum>http://repo.kodi.vn/00-VMFrepo/addons.xml.md5</checksum>
+			<datadir zip="true">http://repo.kodi.vn/00-VMFrepo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
+			<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
+			<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+		</dir>
+		<dir>
+			<info compressed="true">https://raw.github.com/thanhnguyenphu/hdplay.kodi/master/addons.xml</info>
+			<checksum>https://raw.github.com/thanhnguyenphu/hdplay.kodi/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/thanhnguyenphu/hdplay.kodi/raw/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addon from Hieuhien.vn's repository</summary>
+		<description lang="en">[COLOR red][B]Hieuhien.vn[/COLOR]-[COLOR lime]Repository tap hop cac addon va repository XBMC - Kodi[/B][/COLOR]</description>
+		<disclaimer lang="en">Moi noi dung duoc chia se tren mang Internet, HieuHien.vn khong quan ly va chiu trach nhiem ve nhung noi dung nay, quyen su dung thuoc ve nguoi dung!</disclaimer>
+		<email>hotro.hieuhien.vn@gmail.com</email>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon 
+	id="repository.thanhnguyenphu" 
+	version="1.0.0" 
+	name="[COLOR blue][B]ThanhNguyenPhu Repository[/B][/COLOR]" 
+	provider-name="thanhnguyenphu">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository"
+		name="[COLOR blue][B]HDPLAY Repository[/B][/COLOR]">
+		<info compressed="true">https://raw.github.com/thanhnguyenphu/hdplay.kodi/master/addons.xml</info>
+		<checksum>https://raw.github.com/thanhnguyenphu/hdplay.kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/thanhnguyenphu/hdplay.kodi/raw/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addon from HDPLAY's repository</summary>
+		<description lang="en">[COLOR red][B]HDPLAY[/COLOR]-[COLOR blue]Repository tập hợp các addon và repository giải trí online trên XBMC - Kodi[/B][/COLOR]</description>
+		<disclaimer lang="en">Mọi nội dung được lấy từ Internet vì vậy chúng tôi không chịu trách nhiệm về chất lượng cũng như sự ổn định</disclaimer>
+		<email>https://www.facebook.com/thanh.nguyenphu.3954</email>
 		<platform>all</platform>
 	</extension>
 </addon>
